@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": false,
+    "environment": "spo",
+    "version": "1.6.0",
+    "libraryName": "spfxsecrets-webparts",
+    "libraryId": "d0450e3f-9db0-4930-a750-5afac4926a1b",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

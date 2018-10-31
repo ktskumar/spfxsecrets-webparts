@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "chart-example-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/chartExample/ChartExampleWebPart.js",
+          "manifest": "./src/webparts/chartExample/ChartExampleWebPart.manifest.json"
+        }
+      ]
+    },    
+    "pn-p-react-ctrl-sample-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/pnPReactCtrlSample/PnPReactCtrlSampleWebPart.js",
+          "manifest": "./src/webparts/pnPReactCtrlSample/PnPReactCtrlSampleWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "highcharts": "https://code.highcharts.com/highcharts.js"
+  },
+  "localizedResources": {
+    "ChartExampleWebPartStrings": "lib/webparts/chartExample/loc/{locale}.js",    
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
+    "PnPReactCtrlSampleWebPartStrings": "lib/webparts/pnPReactCtrlSample/loc/{locale}.js"
+  }
+}
