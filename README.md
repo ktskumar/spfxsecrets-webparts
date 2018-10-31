@@ -1,7 +1,7 @@
 ## SECRETS TO MASTER SHAREPOINT FRAMEWORK: spfxsecrets-webparts
 
-This Repo contains the Webparts I have created for the demo session held on 27th Oct'18. Here is the link you can navigate the powerpoint presentation 
-[PowerPoint Presentation](https://1drv.ms/p/s!AgcLN_2yoeRIlAAeOmL9HobNrKXr)
+This Repo contains the Webparts I have created for the demo session held on 27th Oct'18. Check out the below link to access the deck presented during my session.
+[Presentation](https://1drv.ms/p/s!AgcLN_2yoeRIlAAeOmL9HobNrKXr)
 
 ### Final Output
 ![](https://raw.githubusercontent.com/ktskumar/spfxsecrets-webparts/master/Readme-Assets/Output.PNG)
@@ -43,9 +43,11 @@ Follow the below steps to use this sample,
   -  **gulp serve**
 - After successfull build, nvaigate to the woprkbench in SharePoint
 - Add the below two webparts to the workbench and test it
-  - List Item Count Chart 
+  - **List Item Count Chart**
+
     ![](https://raw.githubusercontent.com/ktskumar/spfxsecrets-webparts/master/Readme-Assets/ListItemCountChart.PNG) 
-  - PnP React Controls Sample
+  - **PnP React Controls Sample**
+
     ![](https://raw.githubusercontent.com/ktskumar/spfxsecrets-webparts/master/Readme-Assets/PnPReactControls.PNG)
 
 
